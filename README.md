@@ -21,7 +21,7 @@ Referring to the power circuit diagram on Page 12, I conducted the following mod
 Using a 7805 regulator I connected this as follows;
 1) 7805 Input to the upstream side of the removed inductor L1 pad, '2' on illustration 1.
 2) 7805 Output to the downstream side of the removed diode D3 pad, labelled 'C' on illustration 1.
-3) 7805 Common to the 0V (-ve) side of the input bridge rectifer BR1, pin 2
+3) 7805 Common to the 0V (-ve) side of the input bridge rectifier BR1, pin 2
 4) 7805 Common to the 0V (-ve) side of the transformer , labelled 'P2 1',at the joint where it connects to C17 '2'
 
 I attached the regulator to the side of the relay using hot glue, just to keep things in place to make re-assembly easier.
