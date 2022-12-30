@@ -19,8 +19,8 @@ Referring to the power circuit diagram on Page 12, I conducted the following mod
 2) Remove the diode D3
 
 Using a 7805 regulator I connected this as follows;
-1) 7805 Input to the upstream side of the removed inductor L1 pad, '2' on illustrian 1.
-2) 7805 Output to the downstream side of the removed diode D£ pad, labelled 'C' on illustrian 1.
+1) 7805 Input to the upstream side of the removed inductor L1 pad, '2' on illustration 1.
+2) 7805 Output to the downstream side of the removed diode D3 pad, labelled 'C' on illustration 1.
 3) 7805 Common to the 0V (-ve) side of the input bridge rectifer BR1, pin 2
 4) 7805 Common to the 0V (-ve) side of the transformer , labelled 'P2 1',at the joint where it connects to C17 '2'
 
