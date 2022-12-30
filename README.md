@@ -24,4 +24,5 @@ Using a 7805 regulator I connected this as follows;
 3) 7805 Common to the 0V (-ve) side of the input bridge rectifer BR1, pin 2
 4) 7805 Common to the 0V (-ve) side of the transformer , labelled 'P2 1',at the joint where it connects to C17 '2'
 
-
+The sktech for the modification can be found in the repository, the image is as follows;
+![Modified Sketch](https://github.com/Daves-Astrophotography/SonOff_R2_WiFi_12V_Mod/blob/b2c2fb2e19f35f5d101e750a9779d58ee383753f/SonOff%20Basic%20R2%2012V%20DC%20Modification.png)
