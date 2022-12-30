@@ -9,6 +9,9 @@ However, I needed to use the switch for controlling a 12V dc supply to a couple 
 2) Remotely power cycling the shutter controller when it locks up, and stops communicating with the Rotator controller.
 and I am sure there will be other items in the future.
 
+**WARNING: Making modifications to the original manufacturers device will invalidate your warranty. 
+You undertake this modification at your own risk. Faults may result in damage or fire.**
+
 I had originally found this video https://www.youtube.com/watch?v=tRd7VgM_nEI on YouTube, but it was for an earlier revision of the PCB design. I needed to dig a bit deeper and see if I could modify the PCB Rev 1.3 design for the modules I had.
 
 I found the circuit diagram for the device on the SonOff website at the following URL;
@@ -25,6 +28,10 @@ Using a 7805 regulator I connected this as follows;
 4) 7805 Common to the 0V (-ve) side of the transformer , labelled 'P2 1',at the joint where it connects to C17 '2'
 
 I attached the regulator to the side of the relay using hot glue, just to keep things in place to make re-assembly easier.
+
+As you can see in bottom PCB image (in the repositiory files), I used the airgap to pass the regulator common to the underside of the board.
+
+One point to note, is that I have not put any heatsink on the regulator, I do not anticipate it to get very hot, as the pcb circuit is pulling very little power, and the output load does not pass through this regulator, but is switch through the relay via the thick PCB trace and the thick blue wire.
 
 The sktech for the modification can be found in the repository, the image is as follows;
 ![Modified Sketch](https://github.com/Daves-Astrophotography/SonOff_R2_WiFi_12V_Mod/blob/b2c2fb2e19f35f5d101e750a9779d58ee383753f/SonOff%20Basic%20R2%2012V%20DC%20Modification.png)
